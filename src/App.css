@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  width: 100vw;
+  height: 200px;
+}
+
+.logo {
+  width: 90px;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 644px;
+  height: 54px;
+  background-color: #262626;
+  border: 0px solid #0d0d0d;
+  border-radius: 9px;
+  padding: 20px;
+}
+
+button {
+  background-color: #1e6f9f;
+  width: 84px;
+  height: 52px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px;
+}
+
+.InputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 750px;
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+
+.Tasks {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.TasksCreated {
+  display: flex;
+  flex-direction: row;
+  width: 130px;
+  justify-content: space-around;
+  color: white;
+}
+.TasksComplete {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.PCreated {
+  font-weight: 700;
+  color: #4ea8de;
+}
+.PDone {
+  font-weight: 700;
+  color: #4ea8de;
+}
+
+.NoTaskDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.NoTask {
+  margin-top: 40px;
+  width: 288px;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.TaskList {
+  width: 736px;
+  background-color: #333333;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.TaskContent {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 150px;
+}
+
+.Checked {
+  width: 20px;
+  height: 20px;
+}
+.TaskList {
+  display: flex;
+  flex-direction: column;
+}
+
+.TaskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  margin-bottom: 10px;
+}
+
+.TaskContent {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.TaskContent input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #808080;
+  margin-right: 250px;
+}
+.notCompleted {
+  margin-right: 250px;
+  color: #f2f2f2;
+}
+.DeleteButton {
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}
